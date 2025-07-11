@@ -8,7 +8,7 @@ set encoding=utf-8
 
 " Whitespace
 set wrap
-set textwidth=79
+set textwidth=159
 set formatoptions=tcqrn1
 set tabstop=2
 set shiftwidth=2
@@ -27,10 +27,11 @@ set showmatch
 set cursorline
 
 " Highlight cursor line underneath the cursor vertically.
-set cursorcolumn
+set cursorcolumn 
+hi cursorcolumn ctermfg=White ctermbg=4 cterm=bold guifg=white guibg=yellow gui=bold
+
 
 " Show color column at 80 characters width, visual reminder of keepingcode
 " line within a popular line width.
-set colorcolumn=80
-
+set colorcolumn=160
 set rtp+=/opt/homebrew/opt/fzf
