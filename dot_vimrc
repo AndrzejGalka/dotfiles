@@ -1,0 +1,36 @@
+
+syntax on
+filetype on
+
+set rnu
+set ruler
+set encoding=utf-8
+
+" Whitespace
+set wrap
+set textwidth=79
+set formatoptions=tcqrn1
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set noshiftround
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmatch
+
+
+" Highlight cursor line underneath the cursor horizontally.
+set cursorline
+
+" Highlight cursor line underneath the cursor vertically.
+set cursorcolumn
+
+" Show color column at 80 characters width, visual reminder of keepingcode
+" line within a popular line width.
+set colorcolumn=80
+
+set rtp+=/opt/homebrew/opt/fzf
