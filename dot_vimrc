@@ -34,4 +34,15 @@ hi cursorcolumn ctermfg=White ctermbg=4 cterm=bold guifg=white guibg=yellow gui=
 " Show color column at 80 characters width, visual reminder of keepingcode
 " line within a popular line width.
 set colorcolumn=160
-set rtp+=/opt/homebrew/opt/fzf
+set rtp+=fzf
+
+call plug#begin()
+
+" List your plugins here
+" fzf native plugin
+Plug 'junegunn/fzf'
+" fzf.vim
+Plug 'junegunn/fzf.vim'
+
+call plug#end()
+

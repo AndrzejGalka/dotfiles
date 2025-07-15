@@ -15,3 +15,14 @@ brew list > macos-installed
 Reinstall in Terminal using brew:
 
 xargs brew install < macos-installed
+
+
+Dump Arch linux packages
+
+yay -Qqe > arch-linux-installed
+
+Reinstall  packages:
+yay -S (cat arch-linux-installed)
+or
+yay -S --needed - < arch-linux-installed
+
