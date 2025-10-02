@@ -60,6 +60,7 @@ libssh
 libssh2
 libtasn1
 libtiff
+libudfread
 libunibreak
 libunistring
 libvidstab
@@ -89,6 +90,7 @@ oniguruma
 opencore-amr
 openexr
 openjpeg
+openjph
 openssl@3
 opus
 p11-kit
@@ -98,6 +100,7 @@ pipx
 pixman
 pkgconf
 pyenv
+python@3.12
 python@3.13
 rav1e
 readline
@@ -128,6 +131,7 @@ zimg
 zstd
 alacritty
 anki
+gcloud-cli
 ghostty
 karabiner-elements
 kitty
